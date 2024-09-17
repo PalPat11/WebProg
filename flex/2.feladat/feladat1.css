@@ -1,0 +1,73 @@
+.flex-container {
+    display: flex;
+    background-color: yellow;
+    height:300px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-container > div {
+    background-color: DodgerBlue;
+    height:100px;
+    width: 100px;
+  }
+
+  .flex-container4 {
+    display: flex;
+    background-color: yellow;
+    height:400px;
+
+
+    align-items:end;
+    justify-content: end;
+  }
+  
+  .flex-container4 > li {
+    background-color: DodgerBlue;
+    height:100px;
+    width: 100px;
+  }
+  li{
+    list-style-type: none;
+    margin-right: 2px;
+  }
+
+  .flex-container3 {
+    display: flex;
+    background-color: yellow;
+    height:400px;
+    justify-content: space-between;
+
+    align-items: center;
+  }
+  
+  .flex-container3 > li {
+    background-color: DodgerBlue;
+    height:100px;
+    width: 100px;
+  }
+  li{
+    list-style-type: none;
+    margin-right: 2px;
+  }
+
+
+  .flex-container2 {
+    display: flex;
+    background-color: yellow;
+    height:400px;
+
+
+    align-items: center;
+  }
+  
+  .flex-container2 > li {
+    background-color: DodgerBlue;
+    height:100px;
+    width: 100px;
+  }
+  li{
+    list-style-type: none;
+    margin-right: 2px;
+  }
