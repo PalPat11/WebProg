@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    
+  }
+
+.flex-container > li {
+    background-color: DodgerBlue;
+    color: white;
+    list-style-type: none;
+  }
+
+.flex-container >div{
+  background-color: DodgerBlue;
+  color: white;
+  justify-content: space-between;
+}
